@@ -497,6 +497,11 @@ a:active {
   padding: var(--section-body-padding);
 }
 
+.section-body img {
+  max-width: 100%;
+}
+
+
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
@@ -538,6 +543,7 @@ a:active {
 }
 
 .container {
+  max-width: 100%;
   width: 960px;
   margin-left: auto;
   margin-right: auto;
@@ -545,6 +551,7 @@ a:active {
 
 .navbar-menu {
   float: right;
+
 }
 
 .nav {
@@ -625,12 +632,12 @@ ul.row {
 }
 
 .card-image {
-  width: 50%;
+  width: 100%;
 }
 
 .card-image img {
-  width: 300px;
-  height: 300px;
+   width: 350px;
+   height: 350px;
 }
 
 .col-1-2 {
